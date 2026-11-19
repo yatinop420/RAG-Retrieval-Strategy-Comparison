@@ -3,6 +3,7 @@ streamlit
 python-dotenv
 langchain
 langchain-community
+langchain-classic
 langchain-text-splitters
 langchain-chroma
 langchain-huggingface

@@ -2,12 +2,14 @@
 from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from config import EMBEDDING_MODEL
-from langchain.retrievers.multi_query import MultiQueryRetriever
+#from langchain.retrievers.multi_query import MultiQueryRetriever
+from langchain_classic.retrievers.multi_query import MultiQueryRetriever
 from langchain_groq import ChatGroq
 #hybridsearching
 from langchain_community.retrievers import BM25Retriever
 from langchain_core.documents import Document
-from langchain.retrievers import EnsembleRetriever
+#from langchain.retrievers import EnsembleRetriever
+from langchain_classic.retrievers import EnsembleRetriever
 import re
 # Load Existing Vector Database
 def load_vector_store():
